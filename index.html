@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <!-- box icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- swipper  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.3/swiper-bundle.min.css"
+      integrity="sha512-N9ikMaRUVuyTSYJFrrmwrLrpPmKsoj2IHxhRoo8PHTTeGoggR4RIKSDJjQ+r5tBuO4vTQKy7IOMqjfi8wm5uYg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- typeit -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/typeit/8.7.1/types.d.ts"
+    />
+    <!-- aos -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <head class="header" id="header">
+      <div class="header">
+        <div class="navigation">
+          <div class="nav-center d-flex">
+            <h2 class="logo d-flex">
+              <span class="color">S.</span>
+              <span>Alex</span>
+            </h2>
+            <ul class="nav-list d-flex">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link scroll-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link scroll-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#services" class="nav-link scroll-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#portfolio" class="nav-link scroll-link">Porfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="#blog" class="nav-link scroll-link">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link scroll-link">Contact</a>
+              </li>
+
+              <!-- Theme -->
+              <li class="nav-item theme-icon">
+                <i class="bx bx-moon"></i>
+              </li>
+              <!-- close button -->
+              <div class="close">
+                <i class="bx bx-x"></i>
+              </div>
+            </ul>
+            <div class="theme theme-icon">
+              <i class="bx bx-moon"></i>
+            </div>
+            <div class="hamburger">
+              <i class="bx bx-menu"></i>
+            </div>
+          </div>
+        </div>
+        <div class="overlay"></div>
+
+        <!-- hero image -->
+        <img src="./images/hero.png" class="hero-img" alt="" />
+
+        <!-- social links -->
+        <div class="socials">
+          <span class="icon"><i class="bx bxl-instagram"></i></span>
+          <span class="icon"><i class="bx bxl-facebook"></i></span>
+          <span class="icon"><i class="bx bxl-github"></i></span>
+        </div>
+        <div class="controls">
+          <div class="widget d-flex">
+            <i class="bx bxs-cog"></i>
+          </div>
+          <div class="colors">
+            <span data-id="#ff6174"></span>
+            <span data-id="#42caff"></span>
+            <span data-id="#7462e1"></span>
+            <span data-id="#ff4600"></span>
+            <span data-id="#ce00ff"></span>
+          </div>
+        </div>
+        <div class="content">
+          <span>Hello</span>
+          <h1>Am Alez a <span id="type1"></span></h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Consectetur facilis possimus aut maxime! Distinctio sint praesentium
+            enim quia deleniti corrupti.
+          </p>
+          <a href="#" class="btn btn-hero">Hire me</a>
+        </div>
+      </div>
+    </head>
+
+    <!-- about -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="about-center d-flex">
+          <div class="col-1" data-aos="fade-right" data-aos-duration="1300">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill-rule: evenodd;
+                  }
+                </style>
+              </defs>
+              <path
+                class="cls-1"
+                d="M348.966,185.028C352.5,133.656,390.75,98.4,408.679,84.919c65.653-49.37,156.979-31.683,212.511,6.147,66.582,45.359,84.381,124.626,87.814,168.6,11.7,149.93-115.48,312.737-230.073,307.349-36.811-1.731-88.125-21.605-104.5-62.348-21.744-54.1,38.923-101.571,32.491-167.725C400.873,274.711,344.529,249.615,348.966,185.028Z"
+              />
+              <img src="./images/about-img.png" alt="" />
+            </svg>
+          </div>
+          <div class="col-2" data-aos="fade-left" data-aos-duration="1300">
+            <div class="title">
+              <span>Lorem ipsum dolor sit amet.</span>
+              <h1>About me</h1>
+            </div>
+            <h3>A story of Hardwork and Perserverance.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+              officiis rerum recusandae quis repellendus earum veritatis magnam
+              dolorum modi fugit ratione eaque in distinctio expedita minima
+              quam dolorem.
+            </p>
+            <h3>Contact</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
+              modi laborum laudantium ratione saepe accusamus voluptas doloribus
+              magnam incidunt voluptates!
+            </p>
+            <div class="buttons">
+              <a href="#" class="btn">Hire me</a>
+              <a href="#" class="btn btn-outline">Hire me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services -->
+    <section class="section services" id="services">
+      <div class="title">
+        <span>Lorem ipsum dolor sit amet.</span>
+        <h1>Services</h1>
+      </div>
+
+      <div class="row container grid-none">
+        <div class="col" data-aos="fade-up" data-aos-duration="1300">
+          <div class="icon"><i class="bx bx-bulb"></i></div>
+          <span>103 Project</span>
+          <h3>UI & UX Design</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+            suscipit consectetur temporibus, excepturi repudiandae ad
+            perferendis magnam fugit nam similique.
+          </p>
+        </div>
+        <div class="col" data-aos="fade-right" data-aos-duration="1300">
+          <div class="icon"><i class="bx bx-layer"></i></div>
+          <span>106 Project</span>
+          <h3>Graphics Design</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+            suscipit consectetur temporibus, excepturi repudiandae ad
+            perferendis magnam fugit nam similique.
+          </p>
+        </div>
+        <div class="col" data-aos="fade-left" data-aos-duration="1300">
+          <div class="icon"><i class="bx bx-desktop"></i></div>
+          <span>109 Project</span>
+          <h3>Web Design</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+            suscipit consectetur temporibus, excepturi repudiandae ad
+            perferendis magnam fugit nam similique.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio -->
+    <section class="section portfolio" id="portfolio">
+      <div class="row container">
+        <div class="title">
+          <span>Lorem ipsum dolor sit amet.</span>
+          <h1>Portfolio</h1>
+        </div>
+        <div class="filter-btns d-flex">
+          <span class="active" data-id="all">All</span>
+          <span data-id="webDesign">Web Design</span>
+          <span data-id="appDesign">App Design</span>
+          <span data-id="graphicsDesign">Graphics Design</span>
+          <span data-id="webApp">Web App</span>
+        </div>
+      </div>
+
+      <div
+        class="projects container"
+        data-aos="fade-up"
+        data-aos-duration="1300"
+      >
+        <img
+          data-id="graphicDesign"
+          src="./images/blog.jpg"
+          class="item"
+          alt=""
+        />
+        <img data-id="webDesign" src="./images/web3.jpg" class="item" alt="" />
+        <img
+          data-id="graphicDesign"
+          src="./images/app3.jpg"
+          class="item"
+          alt=""
+        />
+        <img data-id="webDesign" src="./images/web1.jpg" class="item" alt="" />
+        <img data-id="webApps" src="./images/app1.jpg" class="item" alt="" />
+        <img data-id="appDesign" src="./images/app2.jpg" class="item" alt="" />
+        <img data-id="appDesign" src="./images/app1.jpg" class="item" alt="" />
+      </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="section testimonials" id="testimonials">
+      <div class="container test-center">
+        <div class="left" data-aos="fade-up" data-aos-duration="1300">
+          <img src="./images/testImg.png" alt="" />
+        </div>
+        <div
+          class="right right-swiper swiper-container"
+          data-aos="fade-down"
+          data-aos-duration="1300"
+        >
+          <div class="title">
+            <span>Lorem ipsum dolor sit amet.</span>
+            <h1>Testimonials</h1>
+          </div>
+
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                excepturi est reprehenderit nisi iure enim nam! Est atque quasi
+                sunt tempora accusantium quas, adipisci fugit facilis aut
+                recusandae dolor maxime doloribus fuga omnis totam eum sapiente
+                a nam dolorem! Adipisci.
+              </p>
+              <h4>Alexander</h4>
+              <span>Web Developer</span>
+            </div>
+            <div class="swiper-slide">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                excepturi est reprehenderit nisi iure enim nam! Est atque quasi
+                sunt tempora accusantium quas, adipisci fugit facilis aut
+                recusandae dolor maxime doloribus fuga omnis totam eum sapiente
+                a nam dolorem! Adipisci.
+              </p>
+              <h4>Mariam</h4>
+              <span>Designer</span>
+            </div>
+            <div class="swiper-slide">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                excepturi est reprehenderit nisi iure enim nam! Est atque quasi
+                sunt tempora accusantium quas, adipisci fugit facilis aut
+                recusandae dolor maxime doloribus fuga omnis totam eum sapiente
+                a nam dolorem! Adipisci.
+              </p>
+              <h4>Brad</h4>
+              <span>React Developer</span>
+            </div>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="bx bxs-left-arrow-alt swiper-icon"></i>
+          </div>
+          <div class="swiper-button-next">
+            <i class="bx bxs-right-arrow-alt swiper-icon"></i>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog -->
+
+    <section class="section blog" id="blog">
+      <div class="title">
+        <span>Lorem ipsum dolor sit amet.</span>
+        <h1>Blog</h1>
+      </div>
+      <div class="row grid-row">
+        <div
+          class="col col-mar-b"
+          data-aos="fade-right"
+          data-aos-duration="1300"
+        >
+          <img src="./images/blog1.jpg" alt="" />
+          <h3>UI & UX Designer Trend 2023</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <a href="#">Read More</a>
+        </div>
+        <div
+          class="col col-mar-b"
+          data-aos="fade-down"
+          data-aos-duration="1300"
+        >
+          <img src="./images/blog2.jpg" alt="" />
+          <h3>Best drone for your next video</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <a href="#">Read More</a>
+        </div>
+        <div
+          class="col col-mar-b"
+          data-aos="fade-left"
+          data-aos-duration="1300"
+        >
+          <img src="./images/blog3.jpg" alt="" />
+          <h3>Best Hosting Providers 2023</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <div class="contact-upper" id="contact">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
+        <path
+          fill-opacity="1"
+          d="M0,192L48,186.7C96,181,192,171,288,176C384,181,480,203,576,186.7C672,171,768,117,864,90.7C960,64,1056,64,1152,106.7C1248,149,1344,235,1392,277.3L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </div>
+    <section class="section contact">
+      <div class="title">
+        <span>Lorem ipsum dolor sit amet.</span>
+        <h1>Contact me</h1>
+      </div>
+      <div class="contact-center container">
+        <div class="left" data-aos="fade-right" data-aos-duration="1300">
+          <form class="form">
+            <h2>Message me</h2>
+            <input type="text" placeholder="Name" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <textarea
+              name="message"
+              placeholder="Describe Project"
+              cols="10"
+              rows="10"
+            ></textarea>
+            <button type="submit" class="btn btn-form">Send message</button>
+          </form>
+        </div>
+        <div class="right" data-aos="fade-left" data-aos-duration="1300">
+          <div>
+            <span class="icon"><i class="bx bx-user"></i></span>
+            <span class="content">
+              <h3>Name</h3>
+              <span>John Smith</span>
+            </span>
+          </div>
+          <div>
+            <span class="icon"><i class="bx bx-map"></i></span>
+            <span class="content">
+              <h3><address></address></h3>
+              <span>Mirpur, Dhaka</span>
+            </span>
+          </div>
+          <div>
+            <span class="icon"><i class="bx bx-envelope"></i></span>
+            <span class="content">
+              <h3>Email</h3>
+              <span>xyz123@gmail.com</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <p>@copyright 2023 Edem</p>
+    </footer>
+    <!-- aos js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- swipper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.4/swiper-bundle.min.js"></script>
+    <!-- typed -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"
+      integrity="sha512-hIlMpy2enepx9maXZF1gn0hsvPLerXoLHdb095CmRY5HG3bZfN7XPBZ14g+TUDH1aGgfLyPHmY9/zuU53smuMw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- custom js -->
+    <script src="script.js"></script>
+  </body>
+</html>
